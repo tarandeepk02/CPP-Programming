@@ -21,17 +21,21 @@ Each program is designed to help with specific real-world problems.
 ## Usage
 
 ### Prerequisites:
-- Java 8 or higher is required to run these programs.
+- C++ Compiler: A C++ compiler such as G++ (part of GCC) or Clang is required to compile and run these programs.
+- IDE: You can use Visual Studio, Code::Blocks, CLion, or Eclipse CDT for C++ development.
 
 ### Running the Programs:
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/tarandeepk02/CPP-Programming
    ```
 2. Navigate to the folder containing the program file you wish to run.
 3. Compile and run the programs using the following commands:
      ```
-     javac <ProgramName>.java
-     java <ProgramName>
+     g++ -std=c++17 <ProgramName>.cpp
      ```
+4. Run the program:
+   ```
+   .\a
+   ```     
