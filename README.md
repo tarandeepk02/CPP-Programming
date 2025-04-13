@@ -16,6 +16,20 @@ This repository contains C++ programs demonstrating various concepts.
 - **CheckPatternPresence.cpp**: This program checks if a given pattern exists as a subsequence within a string using recursion. It utilizes a helper function to compare characters from both the string and the pattern. The results are displayed as "true" or "false" based on whether the pattern is found in the string.
 - **DiceRollCombinationsUsingStack.cpp**: This program simulates rolling a dice with 4 faces and calculates the number of ways to achieve a target sum using a given number of rolls. It uses a stack-based approach to explore all possible combinations of dice rolls. The result is displayed as the total count of ways to reach the target sum.
 
+## Sorting Algorithms
+
+### Iterative:
+- **mergeSort.cpp**: This program implements a modified merge sort algorithm to sort an array of strings in lexicographical order. It recursively divides the array and merges sorted subarrays using string comparisons.
+- **insertionSort.cpp**: This program implements the insertion sort algorithm to sort an array of integers in ascending order. It builds the sorted array one element at a time by inserting each element into its correct position.
+- **selectionSort.cpp**: This program implements the selection sort algorithm to sort an array of integers in ascending order. It repeatedly selects the smallest remaining element and swaps it with the current position in the array.
+- **quickSort.cpp**: This version of Quick Sort implements a non-recursive (iterative) approach using a stack. 
+
+### Recusrive:
+- **mergeSort_Recursion.cpp**: This program uses the merge sort algorithm to sort an array of integers in ascending order. It recursively divides the array and merges the sorted subarrays using a helper array.
+- **insertionSort_Recursion.cpp**: This program performs recursive insertion sort to arrange an array of integers in ascending order. It recursively sorts elements by inserting each one into its correct position within the sorted portion of the array.
+- **selectionSort_Recursion.cpp**: This program performs recursive selection sort to sort an array of integers in ascending order. It recursively finds the minimum element from the unsorted portion and swaps it with the current index.
+- **quickSort_Recursion.cpp**: This program implements the quick sort algorithm to sort an array of integers in ascending order. It uses the middle element as the pivot and recursively partitions the array around it for efficient sorting.
+
 Each program is designed to help with specific real-world problems.
 
 ## Usage
